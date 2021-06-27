@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: yellow;
+}
+
+.shape {
+  background-color: black;
+  width: 17vh;
+  height: 17vh;
+  margin: 0px 0px 0px 0px;
+  animation: spin 12s infinite;
+}
+
+.column1 {
+  display: inline-block;
+  margin:auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(1800deg);}
+
+}
