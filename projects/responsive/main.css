@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+.box {
+  background-color: rgb(153, 171, 237);
+  font-size: 1.25rem;
+  max-width: 900px;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.item {
+  background-color: rgb(79, 101, 180);
+  width: 30%;
+  height: 400px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 800px){
+  body {
+    background-color: rgb(212, 246, 210);
+
+  }
+
+  .box {
+    font-size: 1.5rem;
+  }
+  .container {
+    flex-direction: column;
+
+  }
+
+  .item {
+    width: 100%;
+    margin: 5px 0;
+
+  }
+}

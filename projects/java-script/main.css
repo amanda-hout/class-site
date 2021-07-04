@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  background-color: rgb(117, 153, 126);
+  font-size: 1.2rem;
+}
+button:hover {
+  background-color: rgb(191, 235, 206);
+}
+
+button:active {
+  background: blue;
+}
+
+.box-styles {
+  background: rgb(198, 198, 198);
+  height: 100vh;
+  width: 400px;
+  position: fixed;
+  top: 0;
+  right: -400px;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  transition: right .4s ease;
+}
+
+.active {
+  right: 0px;
+
+}
