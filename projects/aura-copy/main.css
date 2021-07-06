@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin: 0 auto;
+}
+.btn {
+  flex: 1 1 auto;
+  width: 100vw;
+  height: 25vh;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1.5s;
+  background-size: 200% auto;
+ }
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #f7c115 0% , #f07f5f 51% , #f05fd8 100% );
+}
+
+.btn-2 {
+  background-image: linear-gradient(to right, #c25ea6 0%, #5143bf 51%, #3c7af1 100%);
+}
+
+.btn-3 {
+  background-image: linear-gradient(to right, #3c7af1 0%, #32deda 51%, #d5f9a3 100%);
+}
+
+.btn-4 {
+  background-image: linear-gradient(to right, #1fb97c 0%, #d5f9a3 51%, #f7c115 100%);
+}
+
+.btn-5 {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+}
