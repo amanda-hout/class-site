@@ -76,6 +76,14 @@ img {
   margin-top: 950px;
 }
 
+.home {
+  font-family: 'Press Start 2P', cursive, rgb(41, 81, 255);
+  font-size: 2rem;
+  color: #ba97e6;
+  margin-left: 3050px;
+  margin-top: 30px;
+}
+
 body::-webkit-scrollbar {
   width: 1.5em;
   height: 1.5rem;
