@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #233621;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 { font-family: 'Press Start 2P', cursive;
+font-size: 3rem;
+color: #ba97e6;
+}
+p {
+  font-family: 'Press Start 2P', cursive;
+color: #ba97e6;
+
+}
+
+img {
+  width: 180%;
+  height: 180%;
+  transform: rotate(90deg);
+  margin-left: -450px;
+  margin-top: -300px;
+
+}
+
+.text {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: normal;
+  margin: auto;
+  padding-top: 350px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: fixed ;
+  top: 50%;
+  right: 50%;
+  background-color: #efdab9;
+  mix-blend-mode: exclusion
+  ;
+}
+
+
+.objects {
+  height: 200vh;
+  width: 100vw;
+  background-color: rgba(156, 212, 151, 0);
+  position:absolute;
+  margin-top: -10%;
+  margin-left: 100vw;
+}
+
+.arrow {
+  color: #ba97e6;
+  font-size: 3rem;
+  transform: rotate(90deg);
+}
+
+
+.end {
+  font-family: 'Press Start 2P', cursive, rgb(41, 81, 255);
+  font-size: 2rem;
+  padding-top: 50px;
+  color: #ba97e6;
+  margin-left: 3050px;
+  margin-top: 950px;
+}
+
+body::-webkit-scrollbar {
+  width: 1.5em;
+  height: 1.5rem;
+  background-color: white;
+}
+
+body::-webkit-scrollbar-track {
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #233621;
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+body::-webkit-resizer {
+  background-color: orange;
+  border: 5px;
+}

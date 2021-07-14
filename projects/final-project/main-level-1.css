@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(41, 81, 255);
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 { font-family: 'Press Start 2P', cursive;
+font-size: 3rem;
+color: rgb(194, 242, 255);
+}
+p {
+  font-family: 'Press Start 2P', cursive;
+color: rgb(194, 242, 255);
+
+}
+.objects {
+  display: flex;
+  height: 200vh;
+  width: 180vw;
+  background-color: rgba(156, 212, 151, 0);
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 280px;
+  display: flex;
+}
+
+.item1{
+  width: 400px;
+  height: 100px;
+  background-color: red;
+  transform: rotate(30deg);
+  margin: 100px;
+  margin-left: 0px;  background-color: rgb(114, 245, 154);
+
+}
+.item2{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  transform: rotate(200deg);
+  margin-left: 0px;
+  margin-top: 0px;  background-color: rgb(114, 245, 154);
+
+}
+.item3{
+  width: 100px;
+  height: 300px;
+  background-color: red;
+  transform: rotate(80deg);
+  margin-left: -400px;
+  margin-top: 265px;  background-color: rgb(114, 245, 154);
+
+}
+.item4{
+  width: 100px;
+  height: 70px;
+  background-color: red;
+  transform: rotate(80deg);
+  margin-left: -180px;
+  margin-top: 40px;  background-color: rgb(114, 245, 154);
+}
+
+.item5
+{width: 30px;
+height: 30px;
+background-color: red;
+transform: rotate(40deg);
+margin-left: -15px;
+margin-top: 140px;   background-color: rgb(114, 245, 154);
+}
+
+.item6 {width: 30px;
+height: 30px;
+background-color: red;
+transform: rotate(40deg);
+margin-left: 230px;
+margin-top: 340px;   background-color: rgb(114, 245, 154);
+}
+
+.item7 {width: 220px;
+height: 270px;
+background-color: red;
+transform: rotate(133deg);
+margin-left: 0px;
+margin-top: 380px;   background-color: rgb(114, 245, 154);
+}
+
+.item8 {width: 120px;
+height: 70px;
+background-color: red;
+transform: rotate(133deg);
+margin-left: 0px;
+margin-top: 380px;   background-color: rgb(114, 245, 154);
+}
+
+.item9 {width: 120px;
+height: 70px;
+background-color: red;
+transform: rotate(133deg);
+margin-left: -600px;
+margin-top: 500px;
+background-color: rgb(114, 245, 154);
+}
+
+.item10{
+  width: 100px;
+  height: 70px;
+  background-color: red;
+  transform: rotate(80deg);
+  margin-left: -30px;
+  margin-top: 600px;
+  background-color: rgb(114, 245, 154);
+}
+
+.item11{
+  width: 100px;
+  height: 300px;
+  background-color: red;
+  transform: rotate(40deg);
+  margin-left: -50px;
+  margin-top: 650px;  background-color: rgb(114, 245, 154);
+
+}
+
+.item12{
+  width: 40px;
+  height: 400px;
+  background-color: red;
+  transform: rotate(260deg);
+  margin-left: 290px;
+  margin-top: 550px;  background-color: rgb(114, 245, 154);
+
+}
+
+.item13{
+  width: 200px;
+  height: 150px;
+  background-color: red;
+  transform: rotate(160deg);
+  margin-left: 70px;
+  margin-top: 500px;  background-color: rgb(114, 245, 154);
+
+}
+
+.item14{
+  width: 100px;
+  height: 80px;
+  background-color: red;
+  transform: rotate(160deg);
+  margin-left: -350px;
+  margin-top: 580px;  background-color: rgb(114, 245, 154);
+}
+
+.item15{
+  width: 170px;
+  height: 300px;
+  background-color: red;
+  transform: rotate(270deg);
+  margin-left: -280px;
+  margin-top: 780px;  background-color: rgb(114, 245, 154);
+}
+
+.item16{
+  width: 70px;
+  height: 150px;
+  background-color: red;
+  transform: rotate(-45deg);
+  margin-left: 150px;
+  margin-top: 780px;  background-color: rgb(114, 245, 154);
+}
+
+.item17{
+  width: 50px;
+  height: 250px;
+  background-color: red;
+  transform: rotate(80deg);
+  margin-left: -18px;
+  margin-top: 880px;  background-color: rgb(114, 245, 154);
+}
+
+.item18{
+  width: 30px;
+  height: 40px;
+  background-color: red;
+  transform: rotate(70deg);
+  margin-left: -150px;
+  margin-top: 940px;  background-color: rgb(114, 245, 154);
+}
+
+.item19{
+  width: 30px;
+  height: 50px;
+  background-color: red;
+  transform: rotate(60deg);
+  margin-left: -20px;
+  margin-top: 495px;  background-color: rgb(114, 245, 154);
+}
+
+.item20{
+  width: 150px;
+  height: 300px;
+  background-color: red;
+  transform: rotate(-45deg);
+  margin-left: 200px;
+  margin-top: 670px;  background-color: rgb(114, 245, 154);
+}
+
+.item21 {
+  height: 100px;
+  background-color: rgb(255, 248, 79);
+  border-radius: 7px;
+  margin-top: 1050px;
+  margin-left: -100px;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Press Start 2P', cursive, rgb(41, 81, 255);
+  font-size: 2rem;
+  padding: 50px;
+  color: rgb(41, 81, 255);
+
+}
+
+.text {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: normal;
+  margin: auto;
+  padding-top: 150px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: fixed ;
+  top: 50%;
+  right: 50%;
+  background-color: rgb(255, 248, 79);
+  mix-blend-mode:  difference;
+}
+
+.end {
+  font-family: 'Press Start 2P', cursive, rgb(41, 81, 255);
+  font-size: 2rem;
+  padding-top: 50px;
+}
+
+.home{
+  font-family: 'Press Start 2P', cursive, rgb(41, 81, 255);
+  font-size: 2rem;
+  color: rgb(255, 248, 79);
+  margin-top: 1180px;
+  margin-left: -150px;
+}
+
+body::-webkit-scrollbar {
+  width: 1.5em;
+  height: 1.5rem;
+  background-color: white;
+}
+
+body::-webkit-scrollbar-track {
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 245, 154);
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+body::-webkit-resizer {
+  background-color: orange;
+  border: 5px;
+}

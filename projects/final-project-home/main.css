@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(131, 131, 131);
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 { font-family: 'Press Start 2P', cursive;
+font-size: 3rem;
+color: rgb(255, 237, 0);
+line-height: 4rem;
+
+}
+p {
+  font-family: 'Press Start 2P', cursive;
+color: rgb(255, 237, 0);
+line-height: 2rem;
+margin-top: -10px;
+
+}
+
+
+
+.options{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height:400px;
+  background-color: rgba(255, 0, 0, 0);
+  margin: 0 auto;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+}
+
+img{
+  width: 70%;
+  height: auto;
+
+  margin: 0 auto;
+
+}
+
+a{
+  display: flex;
+  width: 7000px;
+
+
+}
+
+.text {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: normal;
+  margin: auto;
+  padding-top: 100px;
+}
+
+
+body::-webkit-scrollbar {
+  width: 1.5em;
+  height: 1.5rem;
+  background-color: white;
+}
+
+body::-webkit-scrollbar-track {
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 245, 154);
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+body::-webkit-resizer {
+  background-color: orange;
+  border: 5px;
+}
